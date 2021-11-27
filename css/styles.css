@@ -129,18 +129,13 @@ body {
   margin-bottom: 30px;
 }
 .hero-btn {
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-btn-color);
   background-color: #2196f3;
-  cursor: pointer;
 
-  border-radius: 4px;
-  border-style: none;
   padding: 10px 30px;
 }
 
@@ -476,29 +471,16 @@ body {
 }
 
 .main-btn {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
   background-color: #f5f4fa;
 
-  border-radius: 4px;
-  border-style: none;
   padding: 5px 22px;
 }
-.main-btn-color {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-btn-color);
-  background-color: var(--link-text-color);
-}
+
 .project-item:nth-last-child(n + 4) {
   margin-bottom: 30px;
 }
