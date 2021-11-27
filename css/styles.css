@@ -221,7 +221,7 @@ body {
 /*------------------------workspace--------------*/
 .workspace {
   background-color: white;
-  padding-bottom: 95px;
+  padding-bottom: 94px;
 }
 
 .workspace-list {
@@ -598,4 +598,46 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+.backdrop {
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  transition: opacity 1000ms, visibility 1000ms;
+}
+.backdrop.is-hidden .modal {
+  transform: scale(1.5) rotate(180deg) translate(1000px);
+  transition: transform 1000ms;
+}
+.modal {
+  width: 528px;
+  min-height: 581px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(1) rotate(0);
+  transform: translate(-50%, -50%);
+  transition: transform 1000ms;
+}
+.modal-close {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #0000001a;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: 0;
 }
