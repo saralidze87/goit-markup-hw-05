@@ -608,7 +608,7 @@ body {
   transition: opacity 1000ms, visibility 1000ms;
 }
 .backdrop.is-hidden .modal {
-  transform: scale(1.5) rotate(180deg) translate(1000px);
+  transform: scale(1.5) rotate(180deg) translate(-1000px);
   transition: transform 1000ms;
 }
 .modal {
